@@ -30,7 +30,7 @@ This is a static website. You can open `index.html` directly in your browser, or
 
 ## Personalize before publishing
 
-1. Replace `assets/profile-placeholder.svg` with a professional photo. Update the image path in `index.html` if you use a different filename.
+1. Add your professional photo as `assets/picture/profile-pic.png` so it matches the image path in `index.html`.
 2. Verify the email address in `index.html` before publishing. Update both `mailto:` links if needed.
 3. Add your actual senior high school, strand, and graduation year.
 4. Review the listed skills and keep only those you can explain.
@@ -53,7 +53,7 @@ This is a static website. You can open `index.html` directly in your browser, or
 Use these as a suggested sequence while you actually build and test the project. Do not create all commits as fake history after the fact.
 
 ```bash
-git add index.html style.css script.js assets/profile-placeholder.svg
+git add index.html style.css script.js assets/picture/profile-pic.png
 git commit -m "Initial commit: create CV website structure"
 
 git add index.html
